@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="ID_Cards_Price_List" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="V4w-aN-W5a">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <subviews>
+                                    <imageView autoresizesSubviews="NO" clearsContextBeforeDrawing="NO" userInteractionEnabled="NO" contentMode="scaleToFill" semanticContentAttribute="playback" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Cards" translatesAutoresizingMaskIntoConstraints="NO" id="LHE-lx-1nZ">
+                                        <rect key="frame" x="54" y="235" width="281" height="146"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" alpha="0.0" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="персонализация" translatesAutoresizingMaskIntoConstraints="NO" id="Ppj-hw-RPM">
+                                        <rect key="frame" x="170" y="327" width="51" height="11"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" alpha="0.0" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="эмбоссирование" translatesAutoresizingMaskIntoConstraints="NO" id="WWT-ql-2LK">
+                                        <rect key="frame" x="72" y="296" width="149" height="10"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" alpha="0.0" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="магнитная_полоска" translatesAutoresizingMaskIntoConstraints="NO" id="j75-KJ-oLN">
+                                        <rect key="frame" x="231" y="271" width="93" height="25"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" alpha="0.40000000000000002" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="фольга" translatesAutoresizingMaskIntoConstraints="NO" id="zEo-zb-ZkS">
+                                        <rect key="frame" x="170" y="251" width="54" height="25"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" alpha="0.0" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="mf_l" translatesAutoresizingMaskIntoConstraints="NO" id="6Tl-jC-pGi">
+                                        <rect key="frame" x="287" y="299" width="27" height="15"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" alpha="0.0" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="em_l" translatesAutoresizingMaskIntoConstraints="NO" id="Et0-bt-lJS">
+                                        <rect key="frame" x="252" y="299" width="27" height="15"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" alpha="0.40000000000000002" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Silver" translatesAutoresizingMaskIntoConstraints="NO" id="PSH-Yp-mON">
+                                        <rect key="frame" x="170" y="346" width="31" height="24"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Тираж" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="SIQ-iI-Ira">
+                                        <rect key="frame" x="51" y="127" width="42" height="20.5"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="50" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="20.5" translatesAutoresizingMaskIntoConstraints="NO" id="Rir-yp-yLl">
+                                        <rect key="frame" x="117" y="127" width="42" height="20.5"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <stepper opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="50" minimumValue="50" maximumValue="5000" stepValue="50" translatesAutoresizingMaskIntoConstraints="NO" id="Q2q-5t-HJN">
+                                        <rect key="frame" x="226" y="123" width="94" height="29"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <connections>
+                                            <action selector="volumeChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="NXJ-pr-1UY"/>
+                                        </connections>
+                                    </stepper>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="QLx-eE-0Bt">
+                                        <rect key="frame" x="40" y="536" width="295" height="61"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="EoE-Sh-QLe">
+                                        <rect key="frame" x="80" y="446" width="214" height="82"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" distribution="fillEqually" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="SI4-dm-FBw">
+                                                <rect key="frame" x="0.0" y="0.0" width="214" height="31"/>
+                                                <subviews>
+                                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9dl-4K-l9w">
+                                                        <rect key="frame" x="0.0" y="0.0" width="46" height="31"/>
+                                                        <state key="normal" image="Personalise">
+                                                            <color key="titleShadowColor" red="0.45138680930000002" green="0.99309605359999997" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        </state>
+                                                        <connections>
+                                                            <action selector="persPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="PiP-rF-Uwl"/>
+                                                        </connections>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YaF-8j-8MI">
+                                                        <rect key="frame" x="56" y="0.0" width="46" height="31"/>
+                                                        <state key="normal" image="Emboss"/>
+                                                        <connections>
+                                                            <action selector="embPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="eHM-Xu-uh1"/>
+                                                        </connections>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Im5-pn-Bab">
+                                                        <rect key="frame" x="112" y="0.0" width="46" height="31"/>
+                                                        <state key="normal" image="Foil"/>
+                                                        <connections>
+                                                            <action selector="foilPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ZED-Hm-YJJ"/>
+                                                        </connections>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ed5-En-up3">
+                                                        <rect key="frame" x="168" y="0.0" width="46" height="31"/>
+                                                        <state key="normal" image="ArgentumButton">
+                                                            <color key="titleShadowColor" red="0.45138680930000002" green="0.99309605359999997" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        </state>
+                                                        <connections>
+                                                            <action selector="agPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="D1S-Nf-nDX"/>
+                                                        </connections>
+                                                    </button>
+                                                </subviews>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" distribution="fillEqually" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="rVh-Mu-eNP">
+                                                <rect key="frame" x="0.0" y="51" width="214" height="31"/>
+                                                <subviews>
+                                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sbW-La-VhG">
+                                                        <rect key="frame" x="0.0" y="0.0" width="46" height="31"/>
+                                                        <state key="normal" image="MF"/>
+                                                        <connections>
+                                                            <action selector="mfPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wZE-cX-yVy"/>
+                                                        </connections>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="40e-Xe-z3P">
+                                                        <rect key="frame" x="56" y="0.0" width="46" height="31"/>
+                                                        <state key="normal" image="EM"/>
+                                                        <connections>
+                                                            <action selector="emPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rhP-Xc-lKS"/>
+                                                        </connections>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n6D-K6-8PU">
+                                                        <rect key="frame" x="112" y="0.0" width="46" height="31"/>
+                                                        <state key="normal" image="Mag"/>
+                                                        <connections>
+                                                            <action selector="magPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="XkQ-Tb-IPD"/>
+                                                        </connections>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2tX-Pc-aJq">
+                                                        <rect key="frame" x="168" y="0.0" width="46" height="31"/>
+                                                        <state key="normal" image="mail"/>
+                                                        <connections>
+                                                            <action selector="mailPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vVI-l7-dg4"/>
+                                                        </connections>
+                                                    </button>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                    </stackView>
+                                    <imageView userInteractionEnabled="NO" alpha="0.40000000000000002" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Silver" translatesAutoresizingMaskIntoConstraints="NO" id="Dzt-e8-w2w">
+                                        <rect key="frame" x="72" y="314" width="31" height="24"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="fNf-7Q-Pau">
+                                        <rect key="frame" x="51" y="48" width="269" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="0.99953407049999998" green="0.98835557699999999" blue="0.47265523669999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                </subviews>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <viewLayoutGuide key="safeArea" id="Cgo-bf-mZA"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="agBackImage" destination="PSH-Yp-mON" id="ZoO-39-yMR"/>
+                        <outlet property="agFaceImage" destination="Dzt-e8-w2w" id="yQr-ij-tsb"/>
+                        <outlet property="emButton" destination="40e-Xe-z3P" id="02Q-xF-4oL"/>
+                        <outlet property="emImage" destination="Et0-bt-lJS" id="1pk-x3-bYD"/>
+                        <outlet property="embButton" destination="YaF-8j-8MI" id="Heq-td-qI9"/>
+                        <outlet property="embImage" destination="WWT-ql-2LK" id="xam-cl-P1l"/>
+                        <outlet property="foilButton" destination="Im5-pn-Bab" id="aeh-Ax-Rcr"/>
+                        <outlet property="foilImage" destination="zEo-zb-ZkS" id="T6N-1f-IXm"/>
+                        <outlet property="magButton" destination="n6D-K6-8PU" id="JLb-Oj-RmG"/>
+                        <outlet property="magImage" destination="j75-KJ-oLN" id="Nj2-V4-QeF"/>
+                        <outlet property="mfButton" destination="sbW-La-VhG" id="mLJ-cu-R3u"/>
+                        <outlet property="mfImage" destination="6Tl-jC-pGi" id="Iaa-MJ-ru7"/>
+                        <outlet property="persButton" destination="9dl-4K-l9w" id="Uze-Od-DkA"/>
+                        <outlet property="persImage" destination="Ppj-hw-RPM" id="j9d-ld-ZIy"/>
+                        <outlet property="priceLabel" destination="QLx-eE-0Bt" id="wrA-Dk-Chi"/>
+                        <outlet property="stepper" destination="Q2q-5t-HJN" id="5e9-s2-fQb"/>
+                        <outlet property="volumeLabel" destination="Rir-yp-yLl" id="TVS-6a-HwW"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="56.799999999999997" y="33.733133433283363"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="ArgentumButton" width="46" height="31"/>
+        <image name="Cards" width="281" height="146"/>
+        <image name="EM" width="46" height="31"/>
+        <image name="Emboss" width="46" height="31"/>
+        <image name="Foil" width="46" height="31"/>
+        <image name="MF" width="46" height="31"/>
+        <image name="Mag" width="46" height="31"/>
+        <image name="Personalise" width="46" height="31"/>
+        <image name="Silver" width="19" height="21"/>
+        <image name="em_l" width="31" height="19"/>
+        <image name="mail" width="46" height="31"/>
+        <image name="mf_l" width="36" height="18"/>
+        <image name="магнитная_полоска" width="95" height="27"/>
+        <image name="персонализация" width="53" height="10"/>
+        <image name="фольга" width="67" height="26"/>
+        <image name="эмбоссирование" width="148" height="9"/>
+    </resources>
+</document>
