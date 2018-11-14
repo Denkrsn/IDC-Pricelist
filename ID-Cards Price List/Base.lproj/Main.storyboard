@@ -169,7 +169,7 @@
                                         </constraints>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="QLx-eE-0Bt">
-                                        <rect key="frame" x="10" y="483" width="300" height="16"/>
+                                        <rect key="frame" x="10" y="488" width="300" height="16"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="QLx-eE-0Bt" secondAttribute="height" multiplier="75:4" id="5qK-xv-Aq5"/>
                                         </constraints>
@@ -237,7 +237,7 @@
                                     <constraint firstItem="Fx4-h5-aSE" firstAttribute="leading" secondItem="Cgo-bf-mZA" secondAttribute="leading" constant="20" id="jG5-d9-bRV"/>
                                     <constraint firstItem="Fx4-h5-aSE" firstAttribute="top" secondItem="Cgo-bf-mZA" secondAttribute="top" constant="30" id="kRG-yd-DJU"/>
                                     <constraint firstItem="LHE-lx-1nZ" firstAttribute="centerY" secondItem="V4w-aN-W5a" secondAttribute="centerY" id="u5Z-Yd-tHl"/>
-                                    <constraint firstItem="QLx-eE-0Bt" firstAttribute="top" secondItem="EoE-Sh-QLe" secondAttribute="bottom" constant="40" id="uqS-0k-5Fs"/>
+                                    <constraint firstItem="QLx-eE-0Bt" firstAttribute="top" secondItem="EoE-Sh-QLe" secondAttribute="bottom" constant="45" id="uqS-0k-5Fs"/>
                                     <constraint firstItem="LHE-lx-1nZ" firstAttribute="top" secondItem="WWT-ql-2LK" secondAttribute="bottom" constant="-76" id="wVq-AF-m50"/>
                                     <constraint firstItem="Dzt-e8-w2w" firstAttribute="top" secondItem="LHE-lx-1nZ" secondAttribute="bottom" constant="-62" id="zoH-yG-f1c"/>
                                 </constraints>
