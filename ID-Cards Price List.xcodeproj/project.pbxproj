@@ -7,23 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C46043C920078F0B007DFCA7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46043C820078F0B007DFCA7 /* AppDelegate.swift */; };
 		C46043CB20078F0B007DFCA7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46043CA20078F0B007DFCA7 /* ViewController.swift */; };
 		C46043CE20078F0B007DFCA7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C46043CC20078F0B007DFCA7 /* Main.storyboard */; };
 		C46043D120078F0B007DFCA7 /* ID_Cards_Price_List.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C46043CF20078F0B007DFCA7 /* ID_Cards_Price_List.xcdatamodeld */; };
 		C46043D320078F0B007DFCA7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C46043D220078F0B007DFCA7 /* Assets.xcassets */; };
 		C46043D620078F0B007DFCA7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C46043D420078F0B007DFCA7 /* LaunchScreen.storyboard */; };
+		C47FFF9C219AD53D00895169 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47FFF9B219AD53D00895169 /* AppDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C46043C520078F0B007DFCA7 /* ID-Cards Price List.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ID-Cards Price List.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C46043C820078F0B007DFCA7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C46043CA20078F0B007DFCA7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C46043CD20078F0B007DFCA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C46043D020078F0B007DFCA7 /* ID_Cards_Price_List.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ID_Cards_Price_List.xcdatamodel; sourceTree = "<group>"; };
 		C46043D220078F0B007DFCA7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C46043D520078F0B007DFCA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C46043D720078F0B007DFCA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C47FFF9B219AD53D00895169 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +56,7 @@
 		C46043C720078F0B007DFCA7 /* ID-Cards Price List */ = {
 			isa = PBXGroup;
 			children = (
-				C46043C820078F0B007DFCA7 /* AppDelegate.swift */,
+				C47FFF9B219AD53D00895169 /* AppDelegate.swift */,
 				C46043CA20078F0B007DFCA7 /* ViewController.swift */,
 				C46043CC20078F0B007DFCA7 /* Main.storyboard */,
 				C46043D220078F0B007DFCA7 /* Assets.xcassets */,
@@ -94,11 +94,12 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0920;
-				LastUpgradeCheck = 0920;
+				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = "Denis Ganevitch";
 				TargetAttributes = {
 					C46043C420078F0B007DFCA7 = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 1010;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -139,9 +140,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C47FFF9C219AD53D00895169 /* AppDelegate.swift in Sources */,
 				C46043D120078F0B007DFCA7 /* ID_Cards_Price_List.xcdatamodeld in Sources */,
 				C46043CB20078F0B007DFCA7 /* ViewController.swift in Sources */,
-				C46043C920078F0B007DFCA7 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -181,6 +182,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -188,6 +190,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -238,6 +241,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -245,6 +249,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -284,7 +289,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "idc.ID-Cards-Price-List";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -299,7 +304,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "idc.ID-Cards-Price-List";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

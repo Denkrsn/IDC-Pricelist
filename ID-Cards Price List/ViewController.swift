@@ -63,7 +63,7 @@ class ViewController: UIViewController {
         if vol<1000 && vol>=500{ prc = 15.5 ; ppers = 1.5 ;pmag = 2 ; pfoil = 4 ; pemb = 4 }
         if vol<2000 && vol>=1000 { prc = 14.5 ; ppers = 1 ;pmag = 1.7 ; pfoil = 3.5 ; pemb = 3.5 }
         if vol<3500 && vol>=2000 { prc = 13.0 ; ppers = 1 ;pmag = 1.5 ; pfoil = 3.5 ; pemb = 3.5 }
-        if vol<5000 && vol>=3500 { prc = 11; ppers = 0.5 ;pmag = 1 ; pfoil = 3.5 ; pemb = 3.5 }
+        if vol<=5000 && vol>=3500 { prc = 11; ppers = 0.5 ;pmag = 1 ; pfoil = 3.5 ; pemb = 3.5 }
         
         //добавляем персонализацию
         if pers==true
@@ -125,10 +125,14 @@ class ViewController: UIViewController {
         price = pricecalc(vol: stepper.value, mag: mag, pers: pers, chip_MF: mf, chip_EM: em, foil: foil, emboss: emb,arg: arg, RA: false)
         
         RA_price = pricecalc(vol: stepper.value, mag: mag, pers: pers, chip_MF: mf, chip_EM: em, foil: foil, emboss: emb,arg: arg ,RA: true)
-        priceLabel.text="Цена по прайсу \(price) рублей, для рекламных агенств \(RA_price) руб. "
+        
+        priceLabel.text="Цена по прайсу \(price) рублей, для рекламных агенств \(round1(RA_price,place: 2)) руб. "
     }
     
-    
+    func round1(_ value: Double, place: Int) -> Double {
+        let divisor = pow(10.0,Double(place))
+        return round(value * divisor) / divisor
+    }
     
     @IBAction func mailPressed(_ sender: UIButton) {
         
